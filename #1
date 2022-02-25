@@ -1,0 +1,16 @@
+dna = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+A_count = 0
+C_count = 0
+G_count = 0
+T_count = 0
+for char in dna:
+    if char==('A'):
+        A_count+=1
+    if char==('C'):
+        C_count+=1
+    if char==('G'):
+        G_count+=1
+    elif char==('T'):
+        T_count+=1
+dict = {'A': A_count,'C': C_count,'G': G_count,'T': T_count}
+print(dict)
